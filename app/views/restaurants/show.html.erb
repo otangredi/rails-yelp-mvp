@@ -1,0 +1,6 @@
+<h1><%= @restaurant.name %></h1>
+<p>📍<strong> Address:</strong> <%= @restaurant.address %></p>
+<p>📞<strong> Phone:</strong> <%= @restaurant.phone_number %></p>
+<p><strong>Type:</strong> <%= @restaurant.category.capitalize %></p>
+
+<%= link_to 'Back to Restaurants', restaurants_path %>
